@@ -15,6 +15,9 @@ vagrant up
 > Some topologies are using Ansible, If you don't have ansible you can start them using
 > `vagrant up --no-provision`
 
+> Some topologies require multiple runs to get started, yielding a syntax error in the first runs. In this case, just re run 
+> `vagrant up` as many times as needed
+
 Once both VMs are up and running, you can connect to them with:
 ```
 vagrant ssh vqfx1
